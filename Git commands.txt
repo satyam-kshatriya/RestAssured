@@ -1,0 +1,54 @@
+Microsoft Windows [Version 10.0.22000.556]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\satya\GitHubSatyam>git config --global user.name "satyam-kshatriya"
+
+C:\Users\satya\GitHubSatyam>git config --global user.email "satyam.kshatriya@gmail.com"
+
+C:\Users\satya\GitHubSatyam>git init
+Initialized empty Git repository in C:/Users/satya/GitHubSatyam/.git/
+
+C:\Users\satya\GitHubSatyam>git add *
+
+C:\Users\satya\GitHubSatyam>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   bin/.project
+        new file:   bin/.settings/org.eclipse.m2e.core.prefs
+        new file:   bin/pom.xml
+        new file:   pom.xml
+
+
+C:\Users\satya\GitHubSatyam>git commit -m "first commit"
+[master (root-commit) b92fd1b] first commit
+ 8 files changed, 101 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 bin/.project
+ create mode 100644 bin/.settings/org.eclipse.m2e.core.prefs
+ create mode 100644 bin/pom.xml
+ create mode 100644 pom.xml
+
+C:\Users\satya\GitHubSatyam>git remote add origin https://github.com/satyam-kshatriya/Satyam.git
+
+C:\Users\satya\GitHubSatyam>git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.55 KiB | 159.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/satyam-kshatriya/Satyam.git
+ * [new branch]      master -> master
+
+C:\Users\satya\GitHubSatyam>
